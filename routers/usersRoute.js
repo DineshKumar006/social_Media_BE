@@ -1,6 +1,4 @@
-// const userModel=require('../models/usermodel')
 
-const redisMiddlerware=require('../middleware/redisMiddlerware')
  const {check} =require('express-validator')
 
 const Router=require('express').Router()
@@ -8,7 +6,6 @@ const userController=require('../controllers/user-controllers')
 const multer=require('multer')
 const httpError=require('../models/erroModel')
 const {v4:uuid}=require('uuid')
-// const authMiddleware=require('../middleware/authMiddlewar')
 
 const MIME_TYPE={
     "image/png":"png",

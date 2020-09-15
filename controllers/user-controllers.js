@@ -1,9 +1,7 @@
 const userModel=require('../models/usermodel')
 const {validationResult} =require('express-validator')
 const HttpError=require('../models/erroModel')
-// const redisClient=require('../redis/redis')
-// const sharp=require('sharp')
-// const Router=require('express').Router()
+
 const fs=require('fs')
 const bcrypt=require('bcryptjs');
 

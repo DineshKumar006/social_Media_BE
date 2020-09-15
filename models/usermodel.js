@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 const Validator=require('validator')
-const HttpError=require('../models/erroModel')
+const HttpError=require('./erroModel')
 const jwt =require('jsonwebtoken')
 const bcrypt=require('bcryptjs')
 let userSchema=new mongoose.Schema({
